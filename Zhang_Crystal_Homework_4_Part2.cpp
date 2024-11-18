@@ -16,7 +16,7 @@ int main ()
     cout << "Enter a DNA sequence: " << endl; //prompts user to enter an untranscribed dna sequence
     getline(cin, dna); //allows user to enter a sequence with spaces
 
-    cout << dna_to_rna (dna); 
+    cout << "The RNA sequence is: " << dna_to_rna (dna); 
     //calls the function using the string: dna as an input and prints out the transcribed rna sequence
     
     return 0; 
@@ -44,7 +44,12 @@ string dna_to_rna (string x) //defines which function this is
               x[i] = 0;
             
         }
-    
+
+    /*
+    Enter a DNA sequence: 
+    ACG TGCA
+    The RNA sequence is: ACG TGCA
+    */
     return rna; //returns the final form of the string
     
 }
