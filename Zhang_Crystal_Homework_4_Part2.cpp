@@ -37,6 +37,10 @@ int main ()
     cout << "Salesperson #" << salesPerson + 1 << " sold " << mostSold << " cars" << endl;
     //prints how many cars they sold
 
-    
+    /*
+ The total amount of cars sold at the dealership is: 58
+The salesperson who sold the most cars is: Salesperson #5
+Salesperson #6 sold 14 cars
+    */
     return 0; 
 }
